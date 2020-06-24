@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+i,
+em,
+bstrong,
+img,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+input,
+textarea {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+	/* 为了兼容ie浏览器 */
+}
+
+.auto-img {
+	width: 100%;
+	display: block;
+}
+
+.one-text {
+	white-space: nowrap;
+	/* 文本不换行 */
+	overflow: hidden;
+	/* 文本超出隐藏 */
+	text-overflow: ellipsis;
+	/* 使用省略号代替隐藏的文本 */
+}
+
+.two-text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/* .sep:after{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	background: #d3d3d3;
+} */
+
+.innerbox {
+	overflow-y: auto;
+}
+
+.innerbox::-webkit-scrollbar {
+	/*滚动条整体样式*/
+	width: 2px;
+	/*高宽分别对应横竖滚动条的尺寸*/
+}
+
+.innerbox::-webkit-scrollbar-thumb {
+	/*滚动条里面小方块*/
+	border-radius: 1px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.innerbox::-webkit-scrollbar-track {
+	/*滚动条里面轨道*/
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 12px;
+}

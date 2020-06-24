@@ -1,0 +1,67 @@
+#wrap {
+	width: 600px;
+	margin: 0 auto;
+	user-select:none;
+}
+
+#img-box {
+	position: relative;
+	width: 600px;
+}
+
+#img-box>img {
+	width: 600px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #999;
+}
+
+#scrollbar-box {
+	position: relative;
+	width: 600px;
+	height: 60px;
+	background-color: #E0E0E0;
+	border-radius: 30px;
+	opacity: .8;
+}
+
+#layer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 600px;
+	height: 60px;
+}
+
+#scrollbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 60px;
+	background-color: #333;
+	border-radius: 60px;
+	opacity: .8;
+	box-shadow: 0px 0px 10px #999;
+}
+
+#shield {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background: white;
+	opacity: .8;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #999;
+}
+
+#puzzle {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	border: 1px solid #999;
+	box-shadow: 0px 0px 10px #999;
+	background-image: url(../img/2.jpg);
+	background-size: 600px;
+}
